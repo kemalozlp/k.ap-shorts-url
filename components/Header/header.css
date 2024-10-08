@@ -65,9 +65,7 @@ h6 {
   }
 
   a { 
-
     text-decoration: none;
-
   }
 }
 
@@ -80,6 +78,14 @@ h6 {
     display: flex;
     align-items: center;
     gap: 5px;
+  }
+
+  a:nth-child(1):hover {
+    background-color: #3B4FD4;
+  }
+
+  a:nth-child(2):hover {
+    background-color: #3B4FD4;
   }
 
   a:nth-child(1) {
