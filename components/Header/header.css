@@ -1,22 +1,88 @@
-.header {
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
   background-color: #0B0F1B;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
 
   h1 {
-    color: white;
+    background: linear-gradient(#E7568F, #3B4FD4);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   a {
-    color: white;
+
     text-decoration: none;
-   
+
   }
 }
 
 .signBtn {
   display: flex;
   gap: 40px;
+  font-size: 15px;
+
+
+  a:nth-child(1) {
+    background: #181E29;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+  }
+
+  a:nth-child(2) {
+    background: #1F4EE3;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+  }
+
 }

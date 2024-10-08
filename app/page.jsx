@@ -1,5 +1,6 @@
 import { createClient } from "@/utils/supabase/server";
 import ShortUrlForm from "./shortform/form";
+import "./page.css"
 
 export default async function Home() {
 
@@ -7,9 +8,11 @@ export default async function Home() {
   const { data: userdata, error: usererror } = await supabase.auth.getUser();
 
   return (
-    <div>
-      <h1>Shorten Your Loooooooong Links:) </h1>
+    <>
+      <div className="shortenlinks">
+        <h1>Extend Life Shorteeeeeeen Link :) </h1>
+      </div>
       <ShortUrlForm />
-    </div>
+    </>
   );
 }
