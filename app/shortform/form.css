@@ -1,4 +1,4 @@
-form {
+.formText {
   padding: 10px;
   width: 600px;
   display: flex;
@@ -16,10 +16,11 @@ form {
 input {
   width: 100%;
   display: flex;
-  color: #181E29;
+  color: white;
   background-color: #0B0F1B;
   border: none;
   outline: none;
+  
 }
 
 button {
@@ -30,6 +31,7 @@ button {
   background-color: #181E29;
   color: #CACBCD;
   border: none;
+  cursor: pointer;
 }
 
 button:hover {
@@ -37,4 +39,8 @@ button:hover {
   font-size: 18px;
   color: #CACBCD;
   border: none;
+}
+
+input:focus {
+  background: transparent;
 }

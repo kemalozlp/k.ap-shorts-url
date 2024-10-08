@@ -13,6 +13,7 @@ export default async function Home() {
         <h1>Uzun Link mi? Zaman kaybı :) </h1>
       </div>
       <ShortUrlForm />
+      <Detailtext />
     </>
   );
 }

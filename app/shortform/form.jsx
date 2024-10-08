@@ -19,10 +19,13 @@ export default function ShortUrlForm() {
     }, [state]);
 
     return (
-        <form ref={formRef} action={action} method="post">
-            <Image width={25} height={25} src="./link.svg" />
-            <input type="text" name="long_url" placeholder="kısaltmak istediğin URL" />
-            <button type="submit">Linki Kısalt</button>
-        </form>
+        <>
+            <form className="formText" ref={formRef} action={action} method="post">
+                <Image width={25} height={25} src="./link.svg" />
+                <input type="text" name="long_url" placeholder="kısaltmak istediğin URL" />
+                <button type="submit">Linki Kısalt</button>
+            </form>
+            
+        </>
     )
 }
