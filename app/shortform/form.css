@@ -1,0 +1,38 @@
+form {
+  padding: 10px;
+  width: 600px;
+  display: flex;
+  border: 3px solid #323E59;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 50px;
+  border: 2px solid #323E59;
+  margin: 0 auto;
+}
+
+
+
+input {
+  width: 100%;
+  display: flex;
+  color: #181E29;
+  background-color: #0B0F1B;
+  border: none;
+}
+
+button {
+  width: 200px;
+  border-radius: 50px;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #181E29;
+  color: white;
+  border: none;
+}
+
+button:hover {
+  background-color: #1F4EE3;
+  font-size: 18px;
+  color: white;
+  border: none;
+}

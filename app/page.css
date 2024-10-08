@@ -1,5 +1,5 @@
 .shortenlinks {
-  background: linear-gradient(red, blue);
+  background: linear-gradient(#E7568F, #3B4FD4);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -7,5 +7,6 @@
 
   h1 {
     text-align: center;
+    margin-bottom: 40px;
   }
 }

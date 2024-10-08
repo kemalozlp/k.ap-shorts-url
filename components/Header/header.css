@@ -85,15 +85,14 @@ h6 {
   a:nth-child(1) {
     background: #181E29;
     color: white;
-    padding: 15px;
+    padding: 10px 20px;
     border-radius: 15px;
   }
 
   a:nth-child(2) {
-    background: #1F4EE3;
+    background: #181E29;
     color: white;
-    padding: 15px;
+    padding: 10px 20px;
     border-radius: 15px;
   }
-
 }

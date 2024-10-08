@@ -24,7 +24,7 @@ export default async function Header() {
                     )
                         : (
                             <div className="signBtn">
-                                <Link href={"/login"}>Giriş Yap <Image width={35} height={35} src="./signup.svg" /></Link>
+                                <Link href={"/login"}>Giriş Yap <Image width={25} height={25} src="./signup.svg" /></Link>
                                 <Link href={"/signup"}>Kayıt Ol</Link>
                             </div>
                         )
