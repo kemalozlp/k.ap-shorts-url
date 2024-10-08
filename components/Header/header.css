@@ -46,19 +46,25 @@ h6 {
 }
 
 .header {
+  width: 1440px;
+  margin: 30px auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
+  margin-bottom: 100px;
 
-  h1 {
+  > a {
     background: linear-gradient(#E7568F, #3B4FD4);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 900;
   }
 
-  a {
+  a { 
 
     text-decoration: none;
 
@@ -70,6 +76,11 @@ h6 {
   gap: 40px;
   font-size: 15px;
 
+  > a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
 
   a:nth-child(1) {
     background: #181E29;

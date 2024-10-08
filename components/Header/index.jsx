@@ -2,6 +2,7 @@ import { signOut } from "@/actions/auth";
 import { createClient } from "@/utils/supabase/server";
 import Link from "next/link";
 import "./header.css";
+import Image from "next/image";
 
 export default async function Header() {
 
@@ -12,7 +13,7 @@ export default async function Header() {
     return (
         <>
             <div className="header">
-                <h1>K.AP</h1>{
+            <Link href={"/"}>K.AP</Link>{
                     user ? (
                         <>
                             <span>Hello {user.user_metadata.firstName}</span>
@@ -23,7 +24,7 @@ export default async function Header() {
                     )
                         : (
                             <div className="signBtn">
-                                <Link href={"/login"}>Giriş Yap</Link>
+                                <Link href={"/login"}>Giriş Yap <Image width={35} height={35} src="./signup.svg" /></Link>
                                 <Link href={"/signup"}>Kayıt Ol</Link>
                             </div>
                         )
