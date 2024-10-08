@@ -1,4 +1,5 @@
 import { signUp } from "@/actions/auth"; 
+import "./signup.css";
 export default function SignUPPage(){ 
 
     return(
