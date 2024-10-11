@@ -1,6 +1,7 @@
 import { createClient } from "@/utils/supabase/server";
 import ShortUrlForm from "./shortform/form";
 import "./page.css"
+import Detailtext from "./detail/detailbox";
 
 export default async function Home() {
 

@@ -1,4 +1,38 @@
-.containerbox {
-  color: white;
-  
+.urlCont {
+  display: grid;
+  gap: 20px;
+}
+
+.urlItem {
+  width: 1440px;
+  margin: 0 auto;
+  background: linear-gradient(90deg, #0F1520, #1C2535, #283041);
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom:2px solid #323e55;
+  border-radius: 20px;
+
+  .links {
+    width: 540px;
+    text-align: left;
+    margin-left: 20px;
+
+    p {
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: 900;
+      color: white;
+    }
+  }
+
+  button {
+    background: #181E29;
+    padding: 5px 10px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+  }
 }
