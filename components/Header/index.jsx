@@ -16,7 +16,7 @@ export default async function Header() {
             <Link href={"/"}>K.AP</Link>{
                     user ? (
                         <>
-                            <span>Hello {user.user_metadata.firstName}</span>
+                            <span>Hoşgeldin {user.user_metadata.firstName}  {user.user_metadata.lastName}</span>
                             <form action={signOut}>
                                 <button>Çıkış Yap</button>
                             </form>

@@ -54,7 +54,7 @@ h6 {
   padding: 10px;
   margin-bottom: 100px;
 
-  > a {
+  >a {
     background: linear-gradient(#E7568F, #3B4FD4);
     -webkit-background-clip: text;
     background-clip: text;
@@ -64,7 +64,7 @@ h6 {
     font-weight: 900;
   }
 
-  a { 
+  a {
     text-decoration: none;
   }
 }
@@ -74,7 +74,7 @@ h6 {
   gap: 40px;
   font-size: 15px;
 
-  > a {
+  >a {
     display: flex;
     align-items: center;
     gap: 5px;
@@ -101,4 +101,13 @@ h6 {
     padding: 10px 20px;
     border-radius: 15px;
   }
+}
+
+span {
+  background: linear-gradient(#E7568F, #3B4FD4);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 24px;
+  color: white;
 }
