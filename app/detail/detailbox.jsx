@@ -22,7 +22,7 @@ export default async function Links() {
             <p href={x.long_url} >{x.short_url}</p>
             <p>{x.long_url}</p>
           </div>
-          <button>Kopyala</button>
+          <button className="btn">Kopyala</button>
         </div>)}
     </div>
   );
