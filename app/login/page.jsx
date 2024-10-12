@@ -9,7 +9,7 @@ export default function LoginPage() {
       <input id="email" name="email" type="email" required placeholder="E-posta Giriniz" />
       <label htmlFor="password">Şifre:</label>
       <input id="password" name="password" type="password" required placeholder="********" />
-      <button formAction={login}>Login</button> 
+      <button className="btnLogin" formAction={login}>Login</button> 
     </form>
     </div>
   )
