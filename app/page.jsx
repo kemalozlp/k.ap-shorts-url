@@ -11,7 +11,7 @@ export default async function Home() {
   return (
     <>
       <div className="shortenlinks">
-        <h1>Uzun Link mi? Zaman kaybı :) </h1>
+        <h1>Uzun Link mi? Zaman kaybı! </h1>
       </div>
       <ShortUrlForm />
       <Detailtext />
