@@ -24,7 +24,7 @@ input {
   
 }
 
-button {
+.submit {
   width: 200px;
   border-radius: 50px;
   padding: 10px;
@@ -35,7 +35,7 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.submit:hover {
   background-color: #1F4EE3;
   font-size: 18px;
   color: #CACBCD;
